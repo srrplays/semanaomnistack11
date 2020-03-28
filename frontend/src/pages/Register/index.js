@@ -67,7 +67,7 @@ export default function Register() {
                     />
                     <input 
                         placeholder="WhatsApp"
-                        value={whatsapp}
+                        value={55 + whatsapp}
                         onChange={e => setWhatsapp(e.target.value)}
                     />
                     
